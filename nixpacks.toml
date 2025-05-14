@@ -16,7 +16,7 @@ cmds = ['npx turbo run build']
 cacheDirectories = ['apps/mail/.next/cache', 'node_modules/.cache']
 
 [start]
-cmd = 'bun docker up'
+cmd= 'bun db:push'
 
 [variables]
 CI = 'true'
